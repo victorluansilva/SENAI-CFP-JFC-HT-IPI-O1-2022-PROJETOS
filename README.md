@@ -1,5 +1,5 @@
-# Livros
+# Bem vindos ao projeto da turma do senai SGRB
 
-<img src='source/arranjo-de-livros.jpg' width="100%" height="500">
+<img src='https://lh3.googleusercontent.com/p/AF1QipNhGRPmTGsU1ldcmFADxfxnpTz1GrLbWdjGlRib=s680-w680-h510' width="600px" height="400px">
 
-### Repositório de exemplo para aula sobre Git
+### Repositório para projetos do curso de TI
