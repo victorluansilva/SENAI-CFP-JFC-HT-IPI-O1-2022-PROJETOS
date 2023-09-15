@@ -86,3 +86,10 @@ a:hover {
   border-style: solid;
   border-color: lightgrey;
 }
+#sizeImgLADC {
+  height: 400px;
+  border-radius: 12px;
+}
+
+
+
