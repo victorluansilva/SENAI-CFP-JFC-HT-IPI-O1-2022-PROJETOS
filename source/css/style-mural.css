@@ -86,3 +86,8 @@ a:hover {
   border-style: solid;
   border-color: lightgrey;
 }
+
+#joaoLucas {
+  width: 400px;
+  height: 400px;
+}
