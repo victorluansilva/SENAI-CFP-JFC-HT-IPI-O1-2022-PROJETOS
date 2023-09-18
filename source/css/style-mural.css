@@ -62,11 +62,17 @@ a:hover {
 }
 
 .photo-card {
-  max-width: 400;
-  max-height: 400;
+  max-width: 400px;
+  max-height: 400px;
   text-align: center;
   background-color: none;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.photo-card img{
+  width: 400px;
+  height: 400px;
   border-radius: 10px;
 }
 
@@ -86,6 +92,7 @@ a:hover {
   border-style: solid;
   border-color: lightgrey;
 }
+<<<<<<< HEAD
 #sizeImgLADC {
   height: 400px;
   border-radius: 12px;
@@ -93,3 +100,5 @@ a:hover {
 
 
 
+=======
+>>>>>>> main

@@ -161,8 +161,10 @@ footer {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     padding: 20px;
+    width: 400px;
+    height: 737.812px;
     max-width: 400px;
-    max-height: fit-content;
+    max-height: 737.812px;
 }
 
 
