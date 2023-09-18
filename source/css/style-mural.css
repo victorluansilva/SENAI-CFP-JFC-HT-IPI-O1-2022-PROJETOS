@@ -61,6 +61,11 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-card:hover {
+  background-color: lightsteelblue;
+  color: inherit;
+}
+
 .photo-card {
   max-width: 400px;
   max-height: 400px;
@@ -92,3 +97,4 @@ a:hover {
   border-style: solid;
   border-color: lightgrey;
 }
+
