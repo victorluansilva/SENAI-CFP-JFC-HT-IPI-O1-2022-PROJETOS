@@ -1,5 +1,16 @@
+#mural{
+  height: 100%;
+  width: auto;
+  padding-bottom: 80px;
+  white-space: nowrap;
+}
+
+#mural .wide.title {
+  margin-bottom: 50px;
+}
+
 .card-profile {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -7,25 +18,22 @@
   border-radius: 8px;
   padding: 20px;
   max-width: inherit;
-  max-height: 300px;
+  max-height: inherit;
 }
 
-.card-profile .title {
-  color: grey;
-  font-size: 18px;
-}
 
 .card-profile button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: #fff;
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-profile a {
@@ -34,8 +42,10 @@
   color: black;
 }
 
-.card-profile button:hover, a:hover {
+.card-profile button:hover,
+a:hover {
   opacity: 0.7;
+<<<<<<< HEAD
 }
 
 .profile-photo {
@@ -59,12 +69,16 @@
 
 #mural .wide.title{
   margin-bottom: 50px;
+=======
+  background-color: rgb(205, 219, 236);
+  color: inherit;
+>>>>>>> main
 }
 
 
 .btn-card {
   background-color: inherit;
-  color: #fff;
+  color: #131212;
   padding: 8px 16px;
   border: none;
   border-radius: 4px;
@@ -73,7 +87,34 @@
   text-decoration: none;
 }
 
-.btn-card:hover {
-  background-color: lightsteelblue;
-  color: inherit;
+.photo-card {
+  max-width: 400px;
+  max-height: 400px;
+  text-align: center;
+  background-color: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.photo-card img{
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+
+.fa-group-content {
+  margin: 24px 0;
+}
+
+.fa-group-content a{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.cardBox hr{
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightgrey;
 }
