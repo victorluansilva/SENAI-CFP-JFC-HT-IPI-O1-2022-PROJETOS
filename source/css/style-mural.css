@@ -61,15 +61,11 @@ a:hover {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .btn-card:hover {
   background-color: lightsteelblue;
   color: inherit;
 }
 
-#imgCaua{
-  width: 400px;
-=======
 .photo-card {
   max-width: 400px;
   max-height: 400px;
@@ -100,5 +96,5 @@ a:hover {
   border-radius: 5px;
   border-style: solid;
   border-color: lightgrey;
->>>>>>> main
+
 }
