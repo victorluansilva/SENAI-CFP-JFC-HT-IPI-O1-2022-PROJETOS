@@ -71,32 +71,32 @@ footer {
     height: 2.5rem;
 }
 
-.button {
+.button-vls {
     text-align: center;
     white-space: normal;
 }
 
-.nav-items {
+.nav-items-vls {
     padding: 8px 16px;
     width: auto;
     border: none;
     /* outline: 0; */
 }
 
-.nav-card {
+.nav-card-vls {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
         0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 
-.content {
+.content-vls {
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
     margin-top: 46px
 }
 
-.container {
+.container-vls {
     padding: 0.01em 16px;
     justify-content: center;
     align-items: center;
@@ -120,19 +120,19 @@ footer {
     padding-bottom: 64px !important
 }
 
-.wide {
+.wide-vls {
     letter-spacing: 4px;
 }
 
-.opacity {
+.opacity-vls {
     opacity: 0.60;
 }
 
-.justify {
+.justify-vls {
     text-align: justify;
 }
 
-.center {
+.center-vls {
     text-align: center;
 }
 
@@ -154,7 +154,7 @@ footer {
 
 
 
-.cardBox {
+.cardBox-vls {
     display:block;
     text-align: center;
     background-color: #fff;
@@ -168,7 +168,7 @@ footer {
 }
 
 
-.btn-card {
+.btn-card-vls {
     background-color: black;
     color: #fff;
     padding: 8px 16px;
@@ -179,17 +179,17 @@ footer {
     text-decoration: none;
 }
 
-.black-ground .cardBox {
+.black-ground .cardBox-vls {
     background-color: white;
     color: black;
 }
 
-.btn-card:hover {
+.btn-card-vls:hover {
     background-color: inherit;
     color: inherit;
 }
 
-.card-container {
+.card-container-vls {
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -205,17 +205,17 @@ section {
     box-sizing: inherit;
 }
 
-section p.justify {
+section p.justify-vls {
     width: auto;
     margin: auto;
     padding: 10px 100px 10px 100px;
 }
 
-section.cardBox {
+section.cardBox-vls {
     background-color: white;
     color: black;
 }
 
-.italic{
+.italic-vls{
     text-orientation:sideways-right;
 }
