@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: unset;
 }
 
 body {
@@ -59,55 +60,52 @@ h2 {
     font-size: 30px;
 }
 
-footer {
-    margin-top: 0;
-    background-color: gainsboro;
-    font-size: 10px;
-    /* position: absolute; */
-    position: fixed;
-    /* min-height: 100vh; */
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-}
 
-.button {
+
+.button-vls {
     text-align: center;
     white-space: normal;
 }
 
-.nav-items {
+.nav-items-vls {
+    display: flex;
     padding: 8px 16px;
     width: auto;
     border: none;
+    /* text-align-last: center; */
     /* outline: 0; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-card {
+.nav-card-vls {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
         0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 
-.content {
+.content-vls {
     margin-left: auto;
     margin-right: auto;
     max-width: 2000px;
     margin-top: 46px
 }
 
-.container {
+.container-vls {
     padding: 0.01em 16px;
     justify-content: center;
     align-items: center;
 }
 
 
-.to-right {
+.to-right-vls {
     float: right !important;
 }
 
-.to-left {
+.to-left-vls {
     float: left !important;
 }
 
@@ -120,19 +118,19 @@ footer {
     padding-bottom: 64px !important
 }
 
-.wide {
+.wide-vls {
     letter-spacing: 4px;
 }
 
-.opacity {
+.opacity-vls {
     opacity: 0.60;
 }
 
-.justify {
+.justify-vls {
     text-align: justify;
 }
 
-.center {
+.center-vls {
     text-align: center;
 }
 
@@ -153,22 +151,7 @@ footer {
 }
 
 
-
-.cardBox {
-    display:block;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    width: 400px;
-    height: 737.812px;
-    max-width: 400px;
-    max-height: 737.812px;
-}
-
-
-.btn-card {
+.btn-card-vls {
     background-color: black;
     color: #fff;
     padding: 8px 16px;
@@ -179,21 +162,9 @@ footer {
     text-decoration: none;
 }
 
-.black-ground .cardBox {
-    background-color: white;
-    color: black;
-}
-
-.btn-card:hover {
+.btn-card-vls:hover {
     background-color: inherit;
     color: inherit;
-}
-
-.card-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 #logo {
@@ -205,17 +176,40 @@ section {
     box-sizing: inherit;
 }
 
-section p.justify {
+section p.justify-vls {
     width: auto;
     margin: auto;
     padding: 10px 100px 10px 100px;
 }
 
-section.cardBox {
+section.cardBox-vls {
     background-color: white;
     color: black;
 }
 
-.italic{
+.italic-vls{
     text-orientation:sideways-right;
+}
+
+footer {
+    margin-top: 0;
+    background-color: gainsboro;
+    font-size: 10px;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* min-height: 100vh; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    padding-top: 15px;
+}
+
+footer.content-vls {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+    margin-top: 0px;
 }
