@@ -103,11 +103,11 @@ footer {
 }
 
 
-.to-right {
+.to-right-vls {
     float: right !important;
 }
 
-.to-left {
+.to-left-vls {
     float: left !important;
 }
 
@@ -153,21 +153,6 @@ footer {
 }
 
 
-
-.cardBox-vls {
-    display:block;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    padding: 20px;
-    width: 400px;
-    height: 737.812px;
-    max-width: 400px;
-    max-height: 737.812px;
-}
-
-
 .btn-card-vls {
     background-color: black;
     color: #fff;
@@ -179,21 +164,9 @@ footer {
     text-decoration: none;
 }
 
-.black-ground .cardBox-vls {
-    background-color: white;
-    color: black;
-}
-
 .btn-card-vls:hover {
     background-color: inherit;
     color: inherit;
-}
-
-.card-container-vls {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 #logo {
