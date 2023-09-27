@@ -1,0 +1,163 @@
+hr {
+  margin: 0;
+  color: 0;
+  border: 0;
+  border-top: 0;
+  opacity: 0;
+}
+img, svg {
+  vertical-align: unset;
+}
+*, ::after, ::before {
+  box-sizing:unset;
+}
+
+h3{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  /* margin: 10px 0; */
+}
+
+#mural{
+  height: 100%;
+  width: auto;
+  padding-bottom: 80px;
+  white-space: nowrap;
+}
+
+#mural .wide-vls.title-vls {
+  margin-bottom: 50px;
+}
+
+.card-container-vls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.cardBox-vls {
+  display: inline-block;
+  text-align: center;
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+  border-radius: 8px;
+  padding: 5px 10px;
+  width: 250px;
+  height: 390px;
+  max-width: 200px;
+  max-height: 400px;
+}
+
+
+.card-profile-vls {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  margin: 5px 0px;
+  text-align: center;
+  font-family: arial;
+  background-color: #fff;
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: inherit;
+  max-height: 40px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-profile-vls a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+.card-profile-vls p.wide-vls {
+  white-space: normal;
+  font-size: 10px;
+  margin: 0px;
+  letter-spacing: 2px;
+  padding-top: 15px;
+}
+
+.card-profile-vls button:hover {
+  opacity: 0.7;
+  background-color: rgb(205, 219, 236);
+  color: inherit;
+}
+
+
+.btn-card-vls {
+  background-color: inherit;
+  color: #131212;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-card-vls:hover {
+  background-color: lightsteelblue;
+  color: inherit;
+}
+
+.photo-card-vls {
+  display: flex;
+  max-width: inherit;
+  max-height: 300px;
+  height: 250px;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 4px 8px 0px;
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.photo-card-vls img{
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+.photo-card-vls p {
+  font-size: 12px;
+  white-space: normal;
+  padding: 5px 0px;
+}
+
+.fa-group-content-vls {
+  /* margin: 5px 0; */
+}
+
+.fa-group-content-vls a{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fa-group-content-vls i{
+  color: black;
+}
+
+.cardBox-vls hr {
+	border-width: 3px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: black;
+  color:black;
+}
+
+.cardBox-vls h2{
+  font-size: 15px;
+}
